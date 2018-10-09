@@ -1,0 +1,48 @@
+public class Main {
+    public static void main(String [] args){
+    Kotak kotak1 = new Kotak();
+        kotak1.setPanjang(10);
+        kotak1.setLebar(20);
+        kotak1.setLuas(200);
+        kotak1.setKeliling(60);
+        
+        System.out.println("panjang: "+kotak1.getPanjang());
+        System.out.println("lebar: "+kotak1.getLebar());
+        System.out.println("luas: "+kotak1.getLuas());
+        System.out.println("keliling: "+kotak1.getKeliling());
+        
+    Mahasiswa mahasiswa1 = new Mahasiswa();
+        mahasiswa1.setNama("Wahidin");
+        mahasiswa1.setNim("D0217516");
+        mahasiswa1.setAlamat("Katumbangan");
+        mahasiswa1.setGolongan_Darah("B");
+        mahasiswa1.setStatus("Pelajar");
+        mahasiswa1.setTinggi_Badan("165");
+        mahasiswa1.setBerat_Badan("50");
+        
+        System.out.println("Nama: "+mahasiswa1.getNama());
+        System.out.println("Nim: "+mahasiswa1.getNim());
+        System.out.println("Alamat: "+mahasiswa1.getAlamat());
+        System.out.println("Golongan_Darah: "+mahasiswa1.getGolongan_Darah());
+        System.out.println("Status: "+mahasiswa1.getStatus());
+        System.out.println("Tinggi_Badan: "+mahasiswa1.getTinggi_Badan());
+        System.out.println("Berat_Badan: "+mahasiswa1.getBerat_Badan());
+        
+    Node node1 = new Node ();
+        node1.setLabel("roti");
+        node1.setValue(1000);
+        
+        System.out.println("Label: "+node1.getLabel());
+        System.out.println("Value: "+node1.getValue());
+        System.out.println();
+        
+    Stack stack1 = new Stack ();
+        stack1.setArrayValue("peringkat");
+        stack1.setTop(100);
+        
+        System.out.println("ArrayValue: "+stack1.getArrayValue());
+        System.out.println("Top: "+stack1.getTop());
+        System.out.println();
+    }
+}
+
