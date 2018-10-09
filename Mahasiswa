@@ -1,0 +1,36 @@
+public class Mahasiswa {
+    
+    private String nama, nim, alamat, golonganDarah, status, tinggiBadan, beratBadan;
+    
+    //ini method setter
+    public void setNama(String nama){
+        this.nama=nama;}
+    public void setNim(String nim){
+        this.nim=nim;}
+    public void setAlamat(String alamat){
+        this.alamat=alamat;}
+    public void setGolongan_Darah(String golonganDarah){
+        this.golonganDarah=golonganDarah;}
+    public void setStatus(String status){
+        this.status=status;}
+    public void setTinggi_Badan(String tinggiBadan){
+        this.tinggiBadan=tinggiBadan;}
+    public void setBerat_Badan(String beratBadan){
+        this.beratBadan=beratBadan;}
+    
+    //ini method getter
+     public String getNama(){
+         return this.nama;}
+    public String getNim(){
+         return this.nim;}
+    public String getAlamat(){
+         return this.alamat;}
+    public String getGolongan_Darah(){
+         return this.golonganDarah;}
+     public String getStatus(){
+         return this.status;}
+    public String getTinggi_Badan(){
+         return this.tinggiBadan;}
+    public String getBerat_Badan(){
+         return this.beratBadan;}
+}
