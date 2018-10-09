@@ -1,0 +1,17 @@
+public class Node {
+    private String label;
+    private int value;
+    
+    //ini method setter
+    public void setLabel(String label){
+        this.label=label;}
+    public void setValue(int value){
+        this.value=value;}
+    
+     //ini method getter
+    public String getLabel(){
+         return this.label;}
+    public int getValue(){
+         return this.value;}
+    
+}
