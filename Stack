@@ -1,0 +1,16 @@
+public class Stack {
+    private String arrayvalue;
+    private int top;
+    
+    //method setter
+    public void setArrayValue(String arrayvalue) {
+        this.arrayvalue=arrayvalue;}
+    public void setTop(int top) {
+        this.top=top;}
+    
+    //method getter
+    public String getArrayValue() {
+        return this.arrayvalue;}
+    public int getTop() {
+        return this.top; }
+}
